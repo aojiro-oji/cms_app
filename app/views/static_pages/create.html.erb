@@ -1,2 +1,6 @@
-<h1>StaticPages#create</h1>
-<p>Find me in app/views/static_pages/create.html.erb</p>
+<% provide(:title, 'Create') %>
+<h1>Create</h1>
+<p>まとめサイトを作成する</p>
+<img alt="タイトルを入力してください" class="crop_image" height="160" id="edit_list_thumbnail" src="/images/noimage.png" width="160">
+<input id="list_title" name="list[title]" placeholder="まとめのタイトル" size="30" type="text" value="">
+<textarea cols="40" id="list_description" name="list[description]" placeholder="まとめの説明（160文字以内）" rows="20"></textarea>
